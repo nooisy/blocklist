@@ -1,0 +1,20 @@
+! Title: muda blocklist
+! Description: my own blocklist
+! Homepage: https://github.com/nooisy/blocklist
+! Expires: 1 day
+
+! reddit anti doomscroll
+www.reddit.com###reddit-logo
+|https://www.reddit.com/|$document
+|https://www.reddit.com|$document
+|https://old.reddit.com/|$document
+|https://new.reddit.com/|$document
+||www.reddit.com/best$document
+||www.reddit.com/hot$document
+||www.reddit.com/new$document
+||www.reddit.com/top$document
+||www.reddit.com/rising$document
+||www.reddit.com/r/popular$document
+||www.reddit.com/r/popular/*$document
+||www.reddit.com/r/all$document
+||www.reddit.com/r/all/*$document
