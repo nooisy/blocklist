@@ -18,3 +18,9 @@ www.reddit.com###reddit-logo
 ||www.reddit.com/r/popular/*$document
 ||www.reddit.com/r/all$document
 ||www.reddit.com/r/all/*$document
+
+! BEGIN REDLIB
+! Updated: 2026-09-17
+red.artemislena.eu,redlib.catsarch.com,redlib.cow.rip,redlib.nadeko.net,redlib.privacyredirect.com,redlib.privadency.com,safereddit.com##a#redlib
+red.artemislena.eu,redlib.catsarch.com,redlib.cow.rip,redlib.nadeko.net,redlib.privacyredirect.com,redlib.privadency.com,safereddit.com##details#feeds
+! END REDLIB
