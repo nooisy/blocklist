@@ -21,6 +21,20 @@ www.reddit.com###reddit-logo
 
 ! BEGIN REDLIB
 ! Updated: 2026-09-17
+|https://red.artemislena.eu/|$document
+|https://red.artemislena.eu|$document
+|https://redlib.catsarch.com/|$document
+|https://redlib.catsarch.com|$document
+|https://redlib.cow.rip/|$document
+|https://redlib.cow.rip|$document
+|https://redlib.nadeko.net/|$document
+|https://redlib.nadeko.net|$document
+|https://redlib.privacyredirect.com/|$document
+|https://redlib.privacyredirect.com|$document
+|https://redlib.privadency.com/|$document
+|https://redlib.privadency.com|$document
+|https://safereddit.com/|$document
+|https://safereddit.com|$document
 red.artemislena.eu,redlib.catsarch.com,redlib.cow.rip,redlib.nadeko.net,redlib.privacyredirect.com,redlib.privadency.com,safereddit.com##a#redlib
 red.artemislena.eu,redlib.catsarch.com,redlib.cow.rip,redlib.nadeko.net,redlib.privacyredirect.com,redlib.privadency.com,safereddit.com##details#feeds
 ! END REDLIB
