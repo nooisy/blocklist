@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 import json, urllib.request, datetime, re, pathlib
 
-FILTER_FILE = pathlib.Path("blocklist.txt")
+FILTER_FILE = pathlib.Path("myfilters.txt")
 START = "! BEGIN REDLIB"
 END = "! END REDLIB"
 
 data = json.load(urllib.request.urlopen(
     "https://raw.githubusercontent.com/redlib-org/redlib-instances/main/instances.json"))
-domains = sorted({re.sub(r"^https?://|/$", "", i["url"]) for i in data["instances"]})
+
+domains = sorted({
+    re.sub(r"^https?://|/$", "", i["url"])
+    for i in data["instances"]
+    if "url" in i
+})
 domain_list = ",".join(domains)
 
 block = [
