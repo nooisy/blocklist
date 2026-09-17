@@ -15,9 +15,15 @@ domains = sorted({
 })
 domain_list = ",".join(domains)
 
+frontpage_rules = []
+for d in domains:
+    frontpage_rules.append(f"|https://{d}/|$document")
+    frontpage_rules.append(f"|https://{d}|$document")
+
 block = [
     START,
     f"! Updated: {datetime.date.today().isoformat()}",
+    *frontpage_rules,
     f"{domain_list}##a#redlib",
     f"{domain_list}##details#feeds",
     END,
