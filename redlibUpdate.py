@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json, urllib.request, datetime, re, pathlib
 
-FILTER_FILE = pathlib.Path("myfilters.txt")
+FILTER_FILE = pathlib.Path("blocklist.txt")
 START = "! BEGIN REDLIB"
 END = "! END REDLIB"
 
