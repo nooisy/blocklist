@@ -18,5 +18,3 @@ www.reddit.com###reddit-logo
 ||www.reddit.com/r/popular/*$document
 ||www.reddit.com/r/all$document
 ||www.reddit.com/r/all/*$document
-
-! redlib anti doomscroll
