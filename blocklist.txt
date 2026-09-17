@@ -1,4 +1,4 @@
-! Title: muda blocklist
+! Title: personal blocklist
 ! Description: my own blocklist
 ! Homepage: https://github.com/nooisy/blocklist
 ! Expires: 1 day
@@ -18,3 +18,5 @@ www.reddit.com###reddit-logo
 ||www.reddit.com/r/popular/*$document
 ||www.reddit.com/r/all$document
 ||www.reddit.com/r/all/*$document
+
+! redlib anti doomscroll
