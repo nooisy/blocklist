@@ -20,7 +20,7 @@ www.reddit.com###reddit-logo
 ||www.reddit.com/r/all/*$document
 
 ! BEGIN REDLIB
-! Updated: 2026-09-17
+! Updated: 2026-09-21
 |https://red.artemislena.eu/|$document
 |https://red.artemislena.eu|$document
 |https://redlib.catsarch.com/|$document
