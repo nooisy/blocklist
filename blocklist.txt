@@ -20,21 +20,15 @@ www.reddit.com###reddit-logo
 ||www.reddit.com/r/all/*$document
 
 ! BEGIN REDLIB
-! Updated: 2026-09-21
-|https://red.artemislena.eu/|$document
-|https://red.artemislena.eu|$document
-|https://redlib.catsarch.com/|$document
-|https://redlib.catsarch.com|$document
-|https://redlib.cow.rip/|$document
-|https://redlib.cow.rip|$document
-|https://redlib.nadeko.net/|$document
-|https://redlib.nadeko.net|$document
-|https://redlib.privacyredirect.com/|$document
-|https://redlib.privacyredirect.com|$document
-|https://redlib.privadency.com/|$document
-|https://redlib.privadency.com|$document
+! Updated: 2026-09-27
 |https://safereddit.com/|$document
 |https://safereddit.com|$document
-red.artemislena.eu,redlib.catsarch.com,redlib.cow.rip,redlib.nadeko.net,redlib.privacyredirect.com,redlib.privadency.com,safereddit.com##a#redlib
-red.artemislena.eu,redlib.catsarch.com,redlib.cow.rip,redlib.nadeko.net,redlib.privacyredirect.com,redlib.privadency.com,safereddit.com##details#feeds
+||red.artemislena.eu^$document
+||redlib.catsarch.com^$document
+||redlib.cow.rip^$document
+||redlib.nadeko.net^$document
+||redlib.privacyredirect.com^$document
+||redlib.privadency.com^$document
+safereddit.com##a#redlib
+safereddit.com##details#feeds
 ! END REDLIB

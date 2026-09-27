@@ -8,24 +8,30 @@ END = "! END REDLIB"
 data = json.load(urllib.request.urlopen(
     "https://raw.githubusercontent.com/redlib-org/redlib-instances/main/instances.json"))
 
-domains = sorted({
-    re.sub(r"^https?://|/$", "", i["url"])
+all_domains = {
+    re.sub(r"^https?://|/$", "", i["url"]): i.get("description", "")
     for i in data["instances"]
     if "url" in i
-})
-domain_list = ",".join(domains)
+}
+
+sfw_domains = sorted(d for d, desc in all_domains.items() if re.search(r"\bsfw\b", desc, re.IGNORECASE))
+other_domains = sorted(set(all_domains) - set(sfw_domains))
+sfw_domain_list = ",".join(sfw_domains)
 
 frontpage_rules = []
-for d in domains:
+for d in sfw_domains:
     frontpage_rules.append(f"|https://{d}/|$document")
     frontpage_rules.append(f"|https://{d}|$document")
+
+fullblock_rules = [f"||{d}^$document" for d in other_domains]
 
 block = [
     START,
     f"! Updated: {datetime.date.today().isoformat()}",
     *frontpage_rules,
-    f"{domain_list}##a#redlib",
-    f"{domain_list}##details#feeds",
+    *fullblock_rules,
+    f"{sfw_domain_list}##a#redlib",
+    f"{sfw_domain_list}##details#feeds",
     END,
 ]
 
