@@ -20,15 +20,17 @@ www.reddit.com###reddit-logo
 ||www.reddit.com/r/all/*$document
 
 ! BEGIN REDLIB
-! Updated: 2026-09-28
+! Updated: 2026-10-05
 |https://safereddit.com/|$document
 |https://safereddit.com|$document
 ||red.artemislena.eu^$document
 ||redlib.catsarch.com^$document
 ||redlib.cow.rip^$document
 ||redlib.nadeko.net^$document
+||redlib.nohost.network^$document
 ||redlib.privacyredirect.com^$document
 ||redlib.privadency.com^$document
+||redlib.r4fo.com^$document
 safereddit.com##a#redlib
 safereddit.com##details#feeds
 ! END REDLIB
