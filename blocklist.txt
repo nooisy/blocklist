@@ -20,8 +20,9 @@ www.reddit.com###reddit-logo
 ||www.reddit.com/r/all/*$document
 
 ! BEGIN REDLIB
-! Updated: 2026-11-02
+! Updated: 2026-11-09
 ||redlib.cow.rip^$document
+||redlib.freedit.eu^$document
 ||redlib.privadency.com^$document
 ##a#redlib
 ##details#feeds
