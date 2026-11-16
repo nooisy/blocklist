@@ -20,10 +20,18 @@ www.reddit.com###reddit-logo
 ||www.reddit.com/r/all/*$document
 
 ! BEGIN REDLIB
-! Updated: 2026-11-09
+! Updated: 2026-11-16
+||reddit.jeremyh.xyz^$document
+||redlib.catsarch.com^$document
 ||redlib.cow.rip^$document
 ||redlib.freedit.eu^$document
+||redlib.hbubli.cc^$document
+||redlib.nadeko.net^$document
 ||redlib.privadency.com^$document
+||redlib.r4fo.com^$document
+||redlib.thepixora.com^$document
+||redlib.utilibre.org^$document
+||redlib.zanity.net^$document
 ##a#redlib
 ##details#feeds
 ! END REDLIB
